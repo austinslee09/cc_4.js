@@ -5,3 +5,4 @@ const products=[
     {name:"wood", catagory:"materials", Price:"$16.99", Inventory:"70"},
     {name:"soup", catagory:"food", Price:"$3.99", Inventory:"100"},
 ]
+console.log(products)
