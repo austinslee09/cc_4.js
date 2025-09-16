@@ -7,8 +7,8 @@ const products=[
 ]
 console.log(products);
 
-for(const products of products)
-    let ;
+for(const products of product){
+
 
 {switch (products.catagory){
     case 'crafts':
@@ -24,10 +24,11 @@ for(const products of products)
     default:
         discount="no discount"
 }
+console.log(${product}discounts)}
 
 console.log(products);}
 
 const customerType=[
     "regular", "student", "serior"
 ]
-//if...else statement
+//if...else statement and fix for of statement
