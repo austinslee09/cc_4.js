@@ -8,7 +8,7 @@ const products=[
 console.log(products);
 
 for(const products of products)
-    let default;
+    let discount;
 
 {switch (products.catagory){
     case 'crafts':
