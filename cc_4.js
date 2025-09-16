@@ -32,4 +32,4 @@ const customerType=[
     "regular", "student", "serior"
 ]
 console.log(products)
-//if...else statement and fix for of statement
+//if...else statement 
