@@ -24,7 +24,7 @@ switch (products.catagory){
 
 console.log(products);
 
-for(let products of products){
+for(const products of products){
     console.log(products)
 };
 
