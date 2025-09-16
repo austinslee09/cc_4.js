@@ -5,7 +5,7 @@ const products=[
     {name:"wood", catagory:["materials"], Price:["$16.99"], Inventory:"70"},
     {name:"soup", catagory:["food"], Price:["$3.99"], Inventory:"100"}
 ]
-console.log(products)
+console.log(products);
 
 switch (products.catagory){
     case 'crafts':
@@ -22,7 +22,9 @@ switch (products.catagory){
         discount="no discount"
 }
 
-console.log(products)
+console.log(products);
 
-
+for(let products of products){
+    console.log(products)
+};
 
