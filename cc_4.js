@@ -7,7 +7,10 @@ const products=[
 ]
 console.log(products);
 
-switch (products.catagory){
+for(const products of products)
+    let default;
+
+{switch (products.catagory){
     case 'crafts':
         discount="20% off"
     break;
@@ -22,9 +25,9 @@ switch (products.catagory){
         discount="no discount"
 }
 
-console.log(products);
+console.log(products);}
 
-for(const products of products){
-    console.log(products)
-};
-
+const customerType=[
+    "regular", "student", "serior"
+]
+//if...else statement
