@@ -19,8 +19,7 @@ switch (Price){
         discount="10% off"
     break;
     default:
-        discount="no discount":
-
+        discount="no discount"
 }
 
 
