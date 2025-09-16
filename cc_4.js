@@ -22,6 +22,7 @@ switch (products.catagory){
         discount="no discount"
 }
 
+console.log(products)
 
 
 
