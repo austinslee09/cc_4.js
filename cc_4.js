@@ -24,7 +24,7 @@ for(const products of product){
     default:
         discount="no discount"
 }
-console.log('$[product] discounts')}
+console.log('$[products] discounts')}
 
 console.log(products);}
 
