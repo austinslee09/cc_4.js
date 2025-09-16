@@ -7,7 +7,7 @@ const products=[
 ]
 console.log(products);
 
-for(const products of product){
+for(const discounts of products){
 
 
 {switch (products.catagory){
@@ -24,7 +24,7 @@ for(const products of product){
     default:
         discount="no discount"
 }
-console.log('$[products] discounts')}
+console.log('$[discounts] of items')}
 
 console.log(products);}
 
