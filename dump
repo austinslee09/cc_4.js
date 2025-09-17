@@ -1,5 +1,9 @@
-for (let index = 0; index < array.length; index--) {
-    const element = array[index];
-    console.log{"Your total is ${}"}
-    
+let discountRate=.1
+for (let i = 1; index < 3; index++) {
+    let total=0;
+    for (let product of products) {
+    total+=product.price;
+    product.inventory--;}
+    let finalTotal= total*(discountRate)
+    console.log
 }
