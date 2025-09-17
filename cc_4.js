@@ -46,9 +46,10 @@ for (let i = 1; i<=3; i++) {
     let total=0;
     for (let product of products) {
     total+=product.price;
-    product.inventory--;}
+    product.inventory--;
+}
     let finalTotal= total*(1-discountRate)
-    console.log('customer #${i}: $${finalTotal.tofixed(2)}')
+    console.log('customer #${i}: $${finalTotal.tofixed(2)}');
 }
 
 //for loop statement
