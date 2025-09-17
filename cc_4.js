@@ -9,7 +9,6 @@ console.log(products);
 
 for(const discounts of products){
 
-
 {switch (products.catagory){
     case 'crafts':
         discount="20% off"
@@ -40,13 +39,6 @@ if("student"){
     "no discount"
 }
     
-
 console.log(products)
-
-for (let index = 0; index < array.length; index--) {
-    const element = array[index];
-    console.log{"Your total is ${}"}
-    
-}
 
 //for loop statement
