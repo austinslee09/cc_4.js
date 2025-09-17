@@ -41,4 +41,14 @@ if("student"){
     
 console.log(products)
 
+let discountRate=.1
+for (let i = 1; index <=3; index++) {
+    let total=0;
+    for (let product of products) {
+    total+=product.price;
+    product.inventory--;}
+    let finalTotal= total*(1-discountRate)
+    console.log('customer #${i}: $${finalTotal.tofixed(2)}')
+}
+
 //for loop statement
