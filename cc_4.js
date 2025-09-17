@@ -14,11 +14,11 @@ for(const product of products){
         product.Price*=.8
     break;
     case 'cars':
-        discount="15% off"
+        product.Price*=.85
     break;
     case 'electronics':
     case 'materials':   
-        discount="10% off"
+        product.Price*=.9
     break;
     default:
         discount="no discount"
@@ -32,7 +32,7 @@ const customerType=[
 ]
 console.log(products)
 if("student"){
-    "5% off total"
+    //find how to get the 5% discount
 }else if ("senior"){
     "7% off total"
 }else{
