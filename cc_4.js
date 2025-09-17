@@ -43,5 +43,6 @@ if("senior"){
 }else{
     "No discount"
 }
+console.log(products)
 
 //if...else statement 
