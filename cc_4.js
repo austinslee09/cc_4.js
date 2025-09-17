@@ -29,7 +29,19 @@ console.log('$[discounts] of items')}
 console.log(products);}
 
 const customerType=[
-    "regular", "student", "serior"
+    "regular", "student", "senior"
 ]
 console.log(products)
+if(student){
+    "5% off total"
+}else{
+    "No discount"
+}
+
+if(senior){
+    "7% off total"
+}else{
+    "No discount"
+}
+
 //if...else statement 
