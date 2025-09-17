@@ -42,7 +42,7 @@ if("student"){
 console.log(products)
 
 let discountRate=.1
-for (let i = 1; index <=3; index++) {
+for (let i = 1; i<=3; index++) {
     let total=0;
     for (let product of products) {
     total+=product.price;
