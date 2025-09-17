@@ -34,15 +34,19 @@ const customerType=[
 console.log(products)
 if("student"){
     "5% off total"
-}else{
-    "No discount"
-}
-
-if("senior"){
+}else if ("senior"){
     "7% off total"
 }else{
-    "No discount"
+    "no discount"
 }
+    
+
 console.log(products)
 
-//if...else statement 
+for (let index = 0; index < array.length; index--) {
+    const element = array[index];
+    console.log{"Your total is ${}"}
+    
+}
+
+//for loop statement
