@@ -4,6 +4,6 @@ for (let i = 1; index < 3; index++) {
     for (let product of products) {
     total+=product.price;
     product.inventory--;}
-    let finalTotal= total*(discountRate)
-    console.log
+    let finalTotal= total*(1-discountRate)
+    console.log('customer #${i}: $${finalTotal.tofixed(2)}')
 }
