@@ -32,13 +32,13 @@ const customerType=[
     "regular", "student", "senior"
 ]
 console.log(products)
-if(student){
+if("student"){
     "5% off total"
 }else{
     "No discount"
 }
 
-if(senior){
+if("senior"){
     "7% off total"
 }else{
     "No discount"
