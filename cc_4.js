@@ -31,12 +31,15 @@ const customerType=[
     "regular", "student", "senior"
 ]
 console.log(products) //need to fix if statement
+
+ let discountPercentage = 0;
+
 if("student"){
-    
+    discountPercentage = .05
 }else if ("senior"){
-    
-}else{
-    "no discount"
+    discountPercentage = .07
+}else if{
+    discountPercentage = 0
 }
     
 console.log(products)
