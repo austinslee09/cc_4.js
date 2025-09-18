@@ -30,16 +30,17 @@ console.log(products);}
 const customerType=[
     "regular", "student", "senior"
 ]
-console.log(products)
+console.log(products) //need to fix if statement
 if("student"){
-    *.05
+    
 }else if ("senior"){
-    *.07
+    
 }else{
     "no discount"
 }
     
 console.log(products)
+
 
 let discountRate=.1
 for (let i = 1; i <= 3; i++) {
