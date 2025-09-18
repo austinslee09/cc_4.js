@@ -60,9 +60,10 @@ let p= products.price[0]
 
 for(let p in products){
 
-if(Object.(products.price))
+
 
     console.log(`${p}: ${products[p]}`);
 }
+
 
 //for loop statement
