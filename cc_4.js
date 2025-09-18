@@ -1,9 +1,9 @@
 let products=[
-    {name:"glue", catagory:"crafts", Price: 4.99,Inventory:90},
-    {name:"tires", catagory:"cars", Price:60.00, Inventory:25},                       
-    {name:"laptop", catagory:"electronics", Price:849.99, Inventory:40},
-    {name:"wood", catagory:"materials", Price:16.99, Inventory:70},
-    {name:"soup", catagory:"food", Price:3.99, Inventory:100}
+    {name:"glue", catagory:"crafts", Price: 4.99,Inventory: 90},
+    {name:"tires", catagory:"cars", Price:60.00, Inventory: 25},                       
+    {name:"laptop", catagory:"electronics", Price:849.99, Inventory: 40},
+    {name:"wood", catagory:"materials", Price:16.99, Inventory: 70},
+    {name:"soup", catagory:"food", Price:3.99, Inventory: 100}
 ]
 console.log(products);
 
