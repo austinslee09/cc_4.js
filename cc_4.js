@@ -49,7 +49,7 @@ let discountRate=.1
 for (let i = 1; i <= 3; i++) {
   let total = 0;
   for (let product of products) {
-    total += product.price;
+    total += product.Price;
     product.inventory--;
   }
   let finalTotal = total * (1 - discountRate);
