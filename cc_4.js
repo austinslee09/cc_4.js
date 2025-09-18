@@ -7,7 +7,7 @@ let products=[
 ]
 console.log(products);
 
-for(let product of products){
+for(let product in products){
 
 {switch (product.catagory){
     case 'crafts':
@@ -56,5 +56,13 @@ for (let i = 1; i <= 3; i++) {
   console.log(`customer #${i}: $${finalTotal.toFixed(2)}`);
 }
 
+let p= products.price[0]
+
+for(let p in products){
+
+if()
+
+    console.log(`${p}: ${products[p]}`);
+}
 
 //for loop statement
