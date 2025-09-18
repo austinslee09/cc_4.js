@@ -58,12 +58,7 @@ for (let i = 1; i <= 3; i++) {
 
 let p= products.price[0]
 
-for(let p in products){
 
-
-
-    console.log(`${p}: ${products[p]}`);
-}
 
 
 //for loop statement
