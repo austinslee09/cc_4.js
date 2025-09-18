@@ -38,7 +38,7 @@ if("student"){
     discountPercentage = .05
 }else if ("senior"){
     discountPercentage = .07
-}else if{
+}else if ("regular"){
     discountPercentage = 0
 }
     
