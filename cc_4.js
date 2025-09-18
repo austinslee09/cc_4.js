@@ -56,9 +56,6 @@ for (let i = 1; i <= 3; i++) {
   console.log(`customer #${i}: $${finalTotal.toFixed(2)}`);
 }
 
-let p= products.price[0]
-
-
 
 
 //for loop statement

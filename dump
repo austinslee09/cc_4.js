@@ -17,7 +17,11 @@ for (let i = 1; i <= 3; i++) {
   let finalTotal = total * (1 - discountRate);
   console.log(`customer #${i}: $${finalTotal.toFixed(2)}`);
 
-  //  for(let p in products){
+
+2
+  let p= products.price[0]
+
+    for(let p in products){
 
 
 
