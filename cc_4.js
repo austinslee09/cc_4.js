@@ -57,7 +57,7 @@ for (let i = 1; i <= 3; i++) {
 }
 
 for (let key in products) {
-    console.log(`my product is ${name}}.`)
+    console.log(`my product is ${Price}.`)
 }
 
 
