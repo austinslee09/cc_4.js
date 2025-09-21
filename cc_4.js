@@ -7,7 +7,7 @@ let products=[
 ]
 console.log(products);
 
-for(let product in products){
+for(let product of products){
 
 {switch (product.catagory){
     case 'crafts':
@@ -57,7 +57,7 @@ for (let i = 1; i <= 3; i++) {
 }
 
 for (let key in products) {
-    console.log(`my product is ${name}.`)
+    console.log(`my product is ${name}}.`)
 }
 
 
