@@ -63,4 +63,8 @@ for (let prod in products) {
 }
 console.log(products)
 
+for (const [key, value] of Object.entries(object)) {
+  console.log(`${key}: ${value}`);
+}
+console.log(products)
 //for loop statement
