@@ -59,12 +59,14 @@ for (let i = 1; i <= 3; i++) {
 for (let key in products) {
     
 }
-console.log(products)
+console.log(products);
 
 for (const [key, value] of Object.entries(products)) {
   console.log(`${key}: ${value}`);
 }
-console.log(products)
+console.log(products);
 
-Object.entries(products)
+Object.entries(products);
+
+console.log(products)
 //for loop statement
