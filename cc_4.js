@@ -65,4 +65,6 @@ for (const [key, value] of Object.entries(products)) {
   console.log(`${key}: ${value}`);
 }
 console.log(products)
+
+Object.entries(products)
 //for loop statement
