@@ -56,6 +56,11 @@ for (let i = 1; i <= 3; i++) {
   console.log(`customer #${i}: $${finalTotal.toFixed(2)}`);
 }
 
-
+for (let prod in products) {
+    if(products.hasOwnProperty(prod)){
+        console.log(`${prod}:${products[prod]}`);
+    }
+}
+console.log(products)
 
 //for loop statement
