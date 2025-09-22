@@ -25,7 +25,7 @@ for(let product of products){
     default:
         discount="no discount"
 }
-console.log(`${discount} of items`)}
+}
 
 //completed for...of loop inside switch statement.
 
