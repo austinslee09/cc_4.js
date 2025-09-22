@@ -7,6 +7,8 @@ let products=[
 ]
 console.log(products);
 
+//Completed array with strings for 5 items.
+
 for(let product of products){
 
 {switch (product.catagory){
@@ -25,12 +27,14 @@ for(let product of products){
 }
 console.log('$[discounts] of items')}
 
+//completed for...of loop inside switch statement.
+
 console.log(products);}
 
 const customerType=[
     "regular", "student", "senior"
 ]
-console.log(products) //need to fix if statement
+console.log(products) 
 
  let discountPercentage = 0;
 
@@ -44,6 +48,8 @@ if("student"){
     
 console.log(products)
 
+//if...else if statement completed for the type of customer.
+
 
 let discountRate=.1
 for (let i = 1; i <= 3; i++) {
@@ -56,10 +62,14 @@ for (let i = 1; i <= 3; i++) {
   console.log(`customer #${i}: $${finalTotal.toFixed(2)}`);
 }
 
+//For loop completed.
+
 for (let key in products) {
     console.log(`my product is ${products[key].name}. It costs ${products[key].Price}`)
 }
 
+
+//for in statement, providing product name and cost based on the array value.
 
 for (const [key, value] of Object.entries(products)) {
   console.log(`${key}: ${value}`);
@@ -69,4 +79,4 @@ console.log(products);
 Object.entries(products);
 
 console.log(products)
-//for loop statement
+//Object entries completed.
